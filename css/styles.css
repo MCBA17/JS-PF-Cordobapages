@@ -1,0 +1,313 @@
+body{
+    margin:0;
+    height: 100%;
+    padding: 0px;
+}
+
+.index{
+    background-image: url("../assets/media/bg0.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.tienda{
+    background-image: url("../assets/media/bg0.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nav{
+    padding: 30px;
+}
+
+.nav-ico{
+    width: 4rem;
+    margin-left: 20px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.navbar{
+    background-image: linear-gradient(to top, rgb(34, 34, 34), #161616);
+    padding: 30px;
+    border-bottom: 2px solid white;
+}
+
+.nav{
+    padding: 10px;
+}
+
+ul{
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inicio-text{
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+.title{
+    color: white;
+    font-size: 4rem;
+    margin-top: 15rem
+}
+
+.title2{
+    color: white;
+    font-size: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem
+}
+
+.btn-danger{
+    color: white;
+    padding: 1.5rem;
+    margin: 40px;
+    font-size: 1.7rem;
+    padding-right: 3rem;
+    padding-left: 3rem
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to top, rgb(34, 34, 34), #161616);
+    max-width: 50rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: 3px solid white;
+    border-radius: 1rem;
+}
+
+.form-container > div {
+    margin-bottom: 10px;
+}
+
+
+.form-text{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.input{
+    width: 15rem;
+    height: 2rem;
+    font-size: 1.2rem;
+}
+
+.btn-dark{
+    border: 1px solid white;
+}
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 10rem;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    padding-bottom: 40px;
+    background-image: linear-gradient(to right, rgb(34, 34, 34), #161616);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid rgb(173, 173, 173);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card h2 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color:rgb(173, 173, 173);
+}
+
+.card p {
+    margin: 8px 0;
+    font-size: 1em;
+    color:rgb(173, 173, 173);
+}
+
+.btn {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.carritobutton{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    background-image: url("../assets/media/carrito.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+    padding: 1rem 0rem;
+}
+
+.vercarrito{
+    font-weight: bold;
+    color: white;
+    font-size: 1.5rem;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    padding: 2.7rem 1rem;
+}
+
+.agregar-btn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to top, rgb(34, 34, 34), #161616);
+    color: #fff;
+    padding: 20px;
+    border: none;
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+}
+
+.agregar-btn:hover {
+    background-image: linear-gradient(to top, #161616, rgb(34, 34, 34));
+}
+
+.footer-tienda {
+    background-image: linear-gradient(to right, rgb(34, 34, 34), #161616);
+    border-top: 2px solid white;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+.footer-bottom0 {
+    background-image: linear-gradient(to right, rgb(34, 34, 34), #161616);
+    border-top: 2px solid white;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer p {
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+footer img {
+    width: 70px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 0.7rem;
+    margin: 0px;
+}
+
+.icon {
+    width: 1.5rem;
+    border: 0;
+    border-radius: 0;
+}
+
+.footer-txt {
+    font-size: 0.8rem;
+}
+
+.footer-item {
+    margin-right: 7rem;
+}
+
+.footer-item2 {
+    margin-right: 70rem;
+}
+
+.filtro{
+    display: none;
+}
+
+.content{
+    flex: 1
+}
+
+.wrapper{
+    display:flex
+}
+
+.checkbox-container {
+    width: 17.5rem;
+    height: 42rem;
+    background-image: linear-gradient(to right, rgb(34, 34, 34), #161616);
+    padding: 20px;
+    color: white;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    margin-left: auto;
+    margin-top: 10rem
+  }
+
+.checkbox{
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.buscar-input{
+    width: 10rem;
+    height: 2.2rem;
+    margin-bottom: 0rem;
+}
+
+.buscar-container{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-primary{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.no-result-message {
+    color: white;
+    font-size: 2rem;
+}
